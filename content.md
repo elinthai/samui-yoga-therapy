@@ -24,7 +24,7 @@ Samui Yoga Therapy is the studio I wish I'd had: small, quiet, personal. I teach
 Wherever you are on the path, there's a place for you on this floor. มีที่สำหรับคุณที่นี่.
 
 **Credentials strip (small text):**
-Licensed Massage Therapist · 200-hour Yoga Teacher Training (Vinyasa, Ashtanga & Hatha) · Yin, Breathwork, Sound Healing & Meditation · Student of Thai Buddhist philosophy, Wat Teepangkorn
+Licensed Massage Therapist · 200-hour Yoga Teacher Training (Vinyasa, Ashtanga & Hatha) · Yin, Breathwork, Sound Healing & Meditation · Student of Thai Buddhist philosophy, Wat Teepangkorn · English, beginner Thai & American Sign Language
 
 ---
 
@@ -79,7 +79,14 @@ The studio is small and I teach by appointment, so the best way to begin is simp
 
 ---
 
+## Testimonials
+
+### Thomas Payton Holland
+> "This Samui Yoga Therapy is SERIOUSLY LIFE CHANGING! I know... huge statement but the results were truly one of a kind. The building has a great atmosphere & Eli is such a genuine & caring person. If you are hearing impaired he knows Sign language, & speaks English and some Thai, and knows American Sign Language. The way my muscles felt were like noodles... but literally also my ORGANS felt like there was TENSION taken OFF of them. I was able to breathe deeper, stand & sit straighter. My squat was misaligned & by the end of the session I was able to do a deep squat — proper form, no misalignment. The lower back pain I suffered from: gone. There were places I didn't know were tight that just seemed to melt away. He gave me the tools I needed — effortless stretching & breathing exercises to maintain the results. Eli gives years of his research & knowledge into fixing the body. You just have to see for yourself."
+
+---
+
 ## Still needed
 
-- [ ] 2–3 client testimonials
+- [ ] 1–2 more client testimonials (have 1 of 2–3)
 - [ ] FAQ section (optional)
