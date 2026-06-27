@@ -1,9 +1,9 @@
 # Samui Yoga Therapy — Landing Page Todo
 
 ## 1. Content Planning
-- [ ] Define the core value proposition (one-sentence hook for the hero)
-- [ ] Write the "About" blurb — story, credentials, approach
-- [ ] List all services offered (e.g. private sessions, group classes, therapy types)
+- [x] Define the core value proposition (one-sentence hook for the hero)
+- [x] Write the "About" blurb — story, credentials, approach
+- [x] List all services offered (e.g. private sessions, group classes, therapy types)
 - [ ] Gather or write 2–3 client testimonials
 - [ ] Write a short FAQ section (optional)
 - [ ] Draft call-to-action copy (booking button, contact prompt)
