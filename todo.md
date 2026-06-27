@@ -6,8 +6,8 @@
 - [x] List all services offered (e.g. private sessions, group classes, therapy types)
 - [ ] Gather or write 2–3 client testimonials
 - [ ] Write a short FAQ section (optional)
-- [ ] Draft call-to-action copy (booking button, contact prompt)
-- [ ] Decide on contact method — form, WhatsApp, email, booking link?
+- [x] Draft call-to-action copy (booking button, contact prompt)
+- [x] Decide on contact method — form, WhatsApp, email, booking link?
 
 ## 2. Design & Assets
 - [ ] Choose a color palette (earthy/tropical tones to match the Samui feel)
