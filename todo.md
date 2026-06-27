@@ -4,52 +4,54 @@
 - [x] Define the core value proposition (one-sentence hook for the hero)
 - [x] Write the "About" blurb — story, credentials, approach
 - [x] List all services offered (e.g. private sessions, group classes, therapy types)
-- [ ] Gather or write 2–3 client testimonials
+- [x] Write pricing section
+- [ ] Gather or write 2–3 client testimonials (have 1)
 - [ ] Write a short FAQ section (optional)
 - [x] Draft call-to-action copy (booking button, contact prompt)
-- [x] Decide on contact method — form, WhatsApp, email, booking link?
+- [x] Decide on contact method — WhatsApp + email
 
 ## 2. Design & Assets
-- [ ] Choose a color palette (earthy/tropical tones to match the Samui feel)
-- [ ] Pick 1–2 Google Fonts (e.g. a serif for headings, clean sans-serif for body)
+- [x] Choose a color palette — ocean & jungle (deep, tide, sea, jungle, mist)
+- [x] Pick fonts — Fraunces (serif), Hanken Grotesk (sans), Sarabun (Thai)
 - [ ] Source or create a logo (or text-based wordmark for now)
-- [ ] Gather hero image(s) — high quality, ideally of the space or practice
-- [ ] Collect any other photos (classes, nature, portraits)
-- [ ] Define the page sections and their order (wireframe sketch or list)
+- [ ] Gather hero image — high quality, studio or practice
+- [ ] Gather about image — portrait of Eli
+- [ ] Define the page sections and their order ✓ done
 
 ## 3. Project Setup
-- [ ] Create project folder structure (`index.html`, `css/style.css`, `js/main.js`, `assets/`)
-- [ ] Set up a basic HTML boilerplate with meta tags, favicon placeholder, and font imports
-- [ ] Link stylesheet and script
+- [x] Create project folder structure (`index.html`, `css/style.css`, `js/main.js`, `assets/`)
+- [x] Set up HTML boilerplate with meta tags, OG tags, and font imports
+- [x] Link stylesheet and script
 
 ## 4. Build — HTML Structure
-- [ ] Navigation bar (logo + anchor links)
-- [ ] Hero section (headline, subheadline, CTA button)
-- [ ] About section
-- [ ] Services section (cards or list)
-- [ ] Testimonials section
-- [ ] Contact / Booking section (form or redirect)
-- [ ] Footer (social links, copyright)
+- [x] Navigation bar (logo + anchor links + sticky CTA)
+- [x] Hero section (headline, subheadline, CTA button, breathing rings)
+- [x] About section
+- [x] Services section (cards)
+- [x] Pricing section
+- [x] Testimonials section
+- [x] Contact / Booking section (WhatsApp + email)
+- [x] Footer
 
 ## 5. Build — CSS Styling
-- [ ] CSS reset / base styles
-- [ ] Typography scale and spacing
-- [ ] Color variables (CSS custom properties)
-- [ ] Navigation styles (mobile menu if needed)
-- [ ] Hero layout and background image
-- [ ] Section-by-section styling
-- [ ] Responsive layout (mobile-first, breakpoints for tablet/desktop)
+- [x] CSS reset / base styles
+- [x] Typography scale and spacing
+- [x] Color variables (CSS custom properties)
+- [x] Navigation styles — sticky, scrolled state, mobile menu
+- [x] Hero layout — breathing ring animation
+- [x] Section-by-section styling (tide flow: deep → mist → jungle → deep)
+- [x] Responsive layout (mobile-first, tablet/desktop breakpoints)
 
 ## 6. Build — JavaScript / Interactivity
-- [ ] Smooth scroll for anchor links
-- [ ] Mobile hamburger menu toggle (if nav collapses)
-- [ ] Contact form validation (if using a form)
-- [ ] Subtle scroll animations (optional — fade-in on scroll)
+- [x] Smooth scroll for anchor links
+- [x] Mobile hamburger menu toggle
+- [x] Scroll fade-in animations
+- [ ] Contact form validation (not using a form — WhatsApp/email instead)
 
 ## 7. Testing & Launch
+- [ ] Add real photos (hero + about portrait)
 - [ ] Test on mobile, tablet, and desktop
 - [ ] Check all links and CTAs work
 - [ ] Run Lighthouse audit (performance, accessibility, SEO)
-- [ ] Add meta description and Open Graph tags (for social sharing previews)
 - [ ] Choose a hosting platform (GitHub Pages, Netlify, or custom domain)
 - [ ] Deploy and verify live site
