@@ -54,6 +54,26 @@ Stress and burnout · injury recovery and mobility · sleep and rest · building
 
 ---
 
+## Pricing
+
+**Context line:**
+Set against the Koh Samui market — a one-hour private runs ฿1,200–3,200 island-wide. SYT sits at the resident's end: the studio is the home rate, and every discount is given from a fair starting point, not a corner.
+
+| Option | Price |
+|---|---|
+| Drop-in — 60-min private at the studio | ฿1,500 |
+| Practice Pass — 10 sessions, valid 3 months | ฿12,000 (฿1,200 each) |
+| Bring a partner — semi-private, 2–3 sharing | ฿1,000 each |
+| Group sound bath — up to 5 people | ฿600 each |
+| Outcall — your session, at your villa or hotel | +฿300 (฿500 to the far side of the island) |
+| Thai community rate | ฿1,000 (kept quiet — word of mouth, in Thai) |
+
+**Logic line:** Price from worth, discount from strength. The drop-in honors the work; the Pass turns a casual visitor into a ฿1,200 regular; the community rate keeps the door open for locals.
+
+**Held back, off the card:** 90-minute deep session at ฿2,000 — there the moment it's wanted.
+
+---
+
 ## CTAs
 
 - Hero button: **Come and practice**
