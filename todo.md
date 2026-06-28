@@ -50,11 +50,11 @@
 
 ## 8. Lead Capture & Funnel
 - [x] Design and build email opt-in section — soft CTA for non-ready visitors
-- [ ] Create lead magnet incentive — free breath/meditation audio download (record audio first)
+- [ ] Create lead magnet incentive — audio titled "Still Water" — record and upload to Mailchimp, then link delivery automation
 - [x] Set up email service provider — Mailchimp selected and account active
 - [x] Wire opt-in form to email list — Mailchimp action URL and honeypot field live
 - [ ] Write welcome/nurture email sequence (at minimum: welcome + 1 follow-up)
-- [ ] Update opt-in body copy with actual audio title once recorded
+- [x] Update opt-in body copy with actual audio title — "Still Water" set in HTML
 - [ ] Create separate Mailchimp audience for Body Sculpt Samui (different list, different offer)
 
 ## 9. Body Sculpt Samui / Styku Transformation Engine
