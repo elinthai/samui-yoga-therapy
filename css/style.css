@@ -500,6 +500,98 @@ ul { list-style: none; }
   flex-shrink: 0;
 }
 
+.arc-credit {
+  text-align: center;
+  font-size: 0.8rem;
+  letter-spacing: 0.04em;
+  color: rgba(236, 242, 240, 0.35);
+  margin-top: -1.5rem;
+  margin-bottom: 3rem;
+}
+.arc-credit a {
+  color: var(--sea);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.arc-credit a:hover { color: var(--mist); }
+
+/* ─── BODY SCULPT TEASER ───────────────────────────────────── */
+.bss-teaser {
+  padding-block: var(--section-pad);
+  background: var(--jungle);
+  position: relative;
+  overflow: hidden;
+}
+
+.bss-teaser::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at 80% 50%, rgba(21, 126, 130, 0.18) 0%, transparent 65%);
+  pointer-events: none;
+}
+
+.bss-teaser-inner {
+  position: relative;
+  z-index: 1;
+  max-width: 680px;
+}
+
+.bss-eyebrow {
+  font-size: 0.73rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--sea);
+  margin-bottom: 1.25rem;
+}
+
+.bss-headline {
+  font-family: var(--font-serif);
+  font-size: clamp(1.8rem, 4vw, 3rem);
+  font-weight: 300;
+  line-height: 1.18;
+  color: var(--mist);
+  margin-bottom: 1.25rem;
+}
+
+.bss-body {
+  font-size: 1rem;
+  color: rgba(236, 242, 240, 0.6);
+  margin-bottom: 2.25rem;
+  max-width: 540px;
+}
+
+.btn-outline-light {
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  border-radius: 2px;
+  font-family: var(--font-sans);
+  font-size: 0.82rem;
+  font-weight: 500;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--mist);
+  border: 1.5px solid rgba(236, 242, 240, 0.35);
+  transition: border-color 0.2s, color 0.2s, background 0.2s;
+}
+.btn-outline-light:hover {
+  border-color: var(--sea);
+  color: var(--sea);
+}
+
+.body-sculpt-link {
+  color: var(--tide);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-color: rgba(21, 126, 130, 0.4);
+  transition: color 0.2s, text-decoration-color 0.2s;
+}
+.body-sculpt-link:hover {
+  color: var(--deep);
+  text-decoration-color: var(--tide);
+}
+
 /* ─── WHO THIS IS FOR ──────────────────────────────────────── */
 .for-you {
   padding-block: var(--section-pad);
