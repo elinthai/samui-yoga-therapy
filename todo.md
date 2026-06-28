@@ -87,6 +87,56 @@
 - [ ] Submit or claim Google Business Profile for "Samui Yoga Therapy"
 - [ ] Add FAQ schema for common questions (What is yoga therapy? Do I need experience? etc.)
 
+## 13. Connected Ecosystem — Three-Site Funnel
+*Build order: define the products first, then build the convergence point, then wire the entry funnels toward it, then build the deeper tiers upward toward Jungle Village.*
+
+### Step 1 — Define the product ladder (no build, decisions only)
+- [ ] Name and price the Scan & Start Package — the shared first purchase from both BSS and SYT funnels (suggested: scan + 2–3 sessions, one fixed price)
+- [ ] Define the Practice Package — what it includes, how long, what it costs (likely formalises the 10-session pass with a scan check-in)
+- [ ] Define the Transformation tier — duration, deliverables, price point (multi-month, outcome-led, probably includes re-scan)
+- [ ] Define the Membership Offer — what recurring looks like (monthly sessions, priority booking, community access?)
+- [ ] Clarify what Jungle Village offers the client at the top of the funnel — retreat participation, residency, investment, or all three
+
+### Step 2 — Build the convergence page (Scan & Start Package)
+- [ ] Decide where it lives — new page on SYT, new page on BSS, or standalone (e.g. /start)
+- [ ] Write the page: headline, what's included, who it's for, price, single CTA (WhatsApp to book)
+- [ ] Make it reachable from both BSS and SYT with consistent link text (e.g. "Start with a scan →")
+
+### Step 3 — Wire both entry funnels toward it
+- [ ] Add Scan & Start Package CTA to SYT — after pricing section or as a featured pricing row
+- [ ] Add Scan & Start Package CTA to BSS — as a natural next step after the scan packages
+- [ ] Align language across both sites so the handoff feels seamless, not like a redirect
+
+### Step 4 — Build the Practice Package tier
+- [ ] Create a page or section for the Practice Package — the committed, ongoing relationship
+- [ ] Link from the Scan & Start page as the natural next step ("What comes after")
+- [ ] Update SYT pricing section to reflect the package and its position in the journey
+
+### Step 5 — Build the Transformation tier
+- [ ] Write the Transformation offer — outcome-led, specific timeframe, includes before/after scan
+- [ ] Add it to the product ladder on SYT and BSS
+- [ ] This is the page that earns the Membership conversation
+
+### Step 6 — Build the Membership Offer
+- [ ] Define what membership unlocks that drop-in doesn't (priority, community, content, Jungle Village access)
+- [ ] Build a membership page or section — keep it invitation-only in tone, not open-enrollment
+- [ ] Connect explicitly to Jungle Village as the next horizon for the most committed clients
+
+### Step 7 — Connect to Jungle Village
+- [ ] Add a "Where this leads" section to the Membership page pointing to Jungle Village
+- [ ] Update Jungle Village (mydreams) to reflect the full client journey — BSS and SYT as the proven on-ramps
+- [ ] Ensure Jungle Village contact form/CTA is reachable from the top of the funnel (not just from the membership tier)
+
+### Step 8 — Cross-site navigation and visual coherence
+- [ ] Audit all three sites for consistent brand language (shared terms, tone, naming conventions)
+- [ ] Add a shared footer strip or nav element across BSS and SYT linking to each other and to Jungle Village
+- [ ] Confirm the visual thread (colours, fonts, spacing) feels like one world across all three
+
+### Step 9 — Email funnel mirrors the journey
+- [ ] Map the Mailchimp welcome sequence to the product ladder: Still Water → Scan & Start → Practice Package → Transformation
+- [ ] Write at minimum: welcome email (deliver Still Water) + one follow-up (introduce Scan & Start Package)
+- [ ] Build separate BSS audience sequence once BSS Mailchimp list is live
+
 ## 7. Testing & Launch
 - [ ] Add real photos (hero + about portrait)
 - [ ] Test on mobile, tablet, and desktop
