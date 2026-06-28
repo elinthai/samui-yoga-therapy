@@ -49,25 +49,30 @@
 - [ ] Contact form validation (not using a form — WhatsApp/email instead)
 
 ## 8. Lead Capture & Funnel
-- [ ] Design and build email opt-in section — soft CTA for non-ready visitors
-- [ ] Create lead magnet incentive — free breath/meditation audio download
-- [ ] Set up email service provider (Mailchimp, ConvertKit, or similar)
-- [ ] Wire opt-in form to email list
+- [x] Design and build email opt-in section — soft CTA for non-ready visitors
+- [ ] Create lead magnet incentive — free breath/meditation audio download (record audio first)
+- [x] Set up email service provider — Mailchimp selected and account active
+- [x] Wire opt-in form to email list — Mailchimp action URL and honeypot field live
 - [ ] Write welcome/nurture email sequence (at minimum: welcome + 1 follow-up)
+- [ ] Update opt-in body copy with actual audio title once recorded
+- [ ] Create separate Mailchimp audience for Body Sculpt Samui (different list, different offer)
 
 ## 9. Body Sculpt Samui / Styku Transformation Engine
-- [ ] Write the Body Sculpt / scan story — the category-of-one narrative
-- [ ] Build a dedicated section or page for the scan → movement → sound → re-scan journey
-- [ ] Add the 130-scan, two-year data proof as a visual or story element
+- [x] Write the Body Sculpt / scan story — category-of-one narrative added to About and arc sections
+- [x] Build scan → movement → sound → re-scan journey arc — live in Services section
+- [x] Add 130-scan, two-year data proof — referenced in About with link to Body Sculpt Samui
+- [x] Integrate Body Sculpt Samui branding — teaser strip + 3 cross-links live (bodysculptsamui.vercel.app)
 - [ ] Source or create before/after or data visualisation assets
-- [ ] Integrate Body Sculpt Samui branding and link to relevant offering
+- [ ] Add "Who this is for" client types to Body Sculpt Samui site (parallel to yoga page)
 
 ## 10. Digital Products — Courses & Audio
-- [ ] Inventory all Gumroad products: The Architect, Ground & Sound, Ashtanga Primary Series, audio work
-- [ ] Design a "Shop / Library" section or page to shelf the products
-- [ ] Write copy for each product (title, one-line hook, what's inside, price)
-- [ ] Link each product card to its Gumroad checkout URL
-- [ ] Add audiobook / audio download listings with sample or preview
+- [x] Inventory all Gumroad products: The Architect, Ground & Sound, Ashtanga Primary Series, audio work
+- [x] Design a "Shop / Library" section — built in index.html, linked from nav as "Library"
+- [x] Write copy for each product (title, one-line hook, what's inside)
+- [ ] Add real prices to each product card (currently "Coming soon")
+- [x] The Architect — linked (gumroad.com/l/zwsmt), $20, workbook + audiobook
+- [ ] Update remaining cards (Ground & Sound, Ashtanga Primary Series, Studio Recordings) with live Gumroad URLs and prices
+- [ ] Add audiobook / audio download listings with sample or preview (add cards as products go live)
 
 ## 11. Booking System
 - [ ] Research booking options (Calendly, Acuity, SimplyBook, or manual WhatsApp for now)
