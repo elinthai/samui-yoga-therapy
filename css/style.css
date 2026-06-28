@@ -457,6 +457,99 @@ ul { list-style: none; }
 
 .section-cta { text-align: center; }
 
+/* ─── JOURNEY ARC ──────────────────────────────────────────── */
+.journey-arc {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  background: var(--deep);
+  border-radius: 3px;
+  padding: clamp(1.5rem, 3vw, 2.5rem);
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.arc-step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+  flex: 1;
+  min-width: 120px;
+}
+
+.arc-label {
+  font-family: var(--font-serif);
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: var(--sea);
+}
+
+.arc-desc {
+  font-size: 0.8rem;
+  color: rgba(236, 242, 240, 0.5);
+  line-height: 1.5;
+}
+
+.arc-arrow {
+  font-size: 1.2rem;
+  color: rgba(98, 182, 173, 0.3);
+  padding-top: 0.3rem;
+  flex-shrink: 0;
+}
+
+/* ─── WHO THIS IS FOR ──────────────────────────────────────── */
+.for-you {
+  padding-block: var(--section-pad);
+  background: var(--deep);
+}
+
+.section-header--light h2 { color: var(--mist); }
+.section-intro--light { color: rgba(236, 242, 240, 0.5); }
+
+.for-you-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5px;
+  background: rgba(98, 182, 173, 0.1);
+  border: 1px solid rgba(98, 182, 173, 0.1);
+  border-radius: 3px;
+  overflow: hidden;
+  margin-bottom: 3rem;
+}
+
+.for-you-card {
+  background: rgba(10, 46, 51, 0.7);
+  padding: clamp(1.5rem, 3vw, 2.5rem);
+}
+
+.for-you-card h3 {
+  font-family: var(--font-serif);
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: var(--sea);
+  margin-bottom: 0.75rem;
+}
+
+.for-you-card p {
+  font-size: 0.92rem;
+  color: rgba(236, 242, 240, 0.6);
+  line-height: 1.75;
+}
+
+.for-you-quote {
+  font-family: var(--font-serif);
+  font-size: clamp(1.3rem, 2.5vw, 1.9rem);
+  font-weight: 300;
+  font-style: italic;
+  color: var(--mist);
+  text-align: center;
+  line-height: 1.4;
+  opacity: 0.85;
+}
+
 /* ─── PRICING ──────────────────────────────────────────────── */
 .pricing {
   padding-block: var(--section-pad);
@@ -723,6 +816,10 @@ ul { list-style: none; }
   .contact-info li { grid-template-columns: 90px 1fr; }
 
   .breathing-rings { width: 340px; height: 340px; right: -10%; bottom: -5%; }
+
+  .for-you-grid { grid-template-columns: 1fr; }
+  .arc-arrow { display: none; }
+  .arc-step { min-width: 45%; }
 }
 
 @media (max-width: 480px) {
