@@ -106,8 +106,8 @@
 ### Step 2 — Build the convergence page (Scan & Start Package)
 - [x] Decide where it lives — start.html in SYT repo, live at samui-yoga-therapy.vercel.app/start
 - [x] Write the page: headline, what's included, product ladder, single CTA (WhatsApp to book)
-- [ ] Add cal.com booking widget to #book section once services are linked (placeholder comment in HTML)
-- [ ] Make it reachable from both BSS and SYT with consistent link text (e.g. "Start with a scan →")
+- [x] Add cal.com booking widget to #book section once services are linked — eli-caleb-fdhnnx/styku-scan-consultation popup live
+- [x] Make it reachable from both BSS and SYT with consistent link text — SYT featured pricing row + BSS bridge section both link to /start with ฿5,000 price
 
 ### Step 3 — Wire both entry funnels toward it
 - [x] Add Scan & Start Package CTA to SYT — featured pricing row at top of pricing table, links to /start
