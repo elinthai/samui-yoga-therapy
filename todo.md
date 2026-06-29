@@ -76,9 +76,12 @@
 
 ## 11. Booking System
 - [x] Decide on booking platform — cal.com selected
-- [ ] Set up cal.com — create service types matching the product ladder (Scan & Start, Practice Package, Transformation)
-- [ ] Embed cal.com widget in start.html #book section (placeholder already in HTML)
-- [ ] Embed or link cal.com from SYT index.html contact section
+- [x] Set up cal.com — yoga-therapy-session, styku-scan-consultation, breathwork-session, sound-healing-session, styku-3d-body-scan live at cal.com/eli-caleb-fdhnnx
+- [x] Embed cal.com popup in start.html — styku-scan-consultation
+- [x] Embed cal.com popup in practice.html and transformation.html — yoga-therapy-session
+- [x] Add cal.com "Book a session" as primary CTA in index.html contact section
+- [x] Cal.com script loaded via main.js — active across all pages
+- [ ] Add cal.com bookings to BSS site (styku-3d-body-scan, styku-scan-consultation)
 - [ ] Test booking flow end-to-end on mobile and desktop
 
 ## 12. Trust & Local SEO

@@ -52,6 +52,16 @@ ul { list-style: none; }
   text-decoration: none;
   transition: background 0.2s, color 0.2s, border-color 0.2s;
   cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+.book-actions {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 1.25rem;
 }
 
 .btn-primary {
