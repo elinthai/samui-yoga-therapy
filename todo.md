@@ -81,7 +81,8 @@
 - [x] Embed cal.com popup in practice.html and transformation.html — yoga-therapy-session
 - [x] Add cal.com "Book a session" as primary CTA in index.html contact section
 - [x] Cal.com script loaded via main.js — active across all pages
-- [ ] Add cal.com bookings to BSS site (styku-3d-body-scan, styku-scan-consultation)
+- [x] Add cal.com bookings to BSS site — styku-3d-body-scan on nav, hero, scan package, hotels; styku-scan-consultation on contact section
+- [x] Update SYT index.html general booking to samui-wellness routing calendar
 - [ ] Test booking flow end-to-end on mobile and desktop
 
 ## 12. Trust & Local SEO
