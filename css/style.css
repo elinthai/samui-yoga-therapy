@@ -1491,6 +1491,269 @@ ul { list-style: none; }
   margin-top: 1.75rem;
 }
 
+/* ─── MEMBERSHIP PAGE ──────────────────────────────────────── */
+.membership-hero {
+  background: var(--mist);
+  padding-top: calc(var(--section-pad) + 5rem);
+  padding-bottom: var(--section-pad);
+  text-align: center;
+}
+
+.membership-hero-inner {
+  max-width: 640px;
+}
+
+.membership-headline {
+  font-family: var(--font-serif);
+  font-size: clamp(2.8rem, 6vw, 5rem);
+  font-weight: 300;
+  line-height: 1.1;
+  color: var(--deep);
+  margin-bottom: 1.5rem;
+  letter-spacing: -0.01em;
+}
+
+.membership-sub {
+  font-family: var(--font-serif);
+  font-size: clamp(1rem, 2vw, 1.2rem);
+  font-style: italic;
+  font-weight: 300;
+  color: rgba(10, 46, 51, 0.55);
+  line-height: 1.8;
+  max-width: 520px;
+  margin-inline: auto;
+}
+
+.membership-what {
+  padding-block: var(--section-pad);
+  background: var(--white);
+}
+
+.membership-what-grid {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: clamp(2.5rem, 6vw, 5rem);
+  align-items: start;
+}
+
+.membership-label {
+  font-size: 0.72rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--sea);
+  margin-bottom: 1.25rem;
+  display: block;
+}
+
+.membership-what-text h2 {
+  font-family: var(--font-serif);
+  font-size: clamp(2rem, 3.5vw, 2.8rem);
+  font-weight: 300;
+  color: var(--deep);
+  line-height: 1.15;
+  margin-bottom: 1.5rem;
+}
+
+.membership-what-text p {
+  font-size: 0.97rem;
+  color: rgba(10, 46, 51, 0.72);
+  line-height: 1.85;
+  margin-bottom: 1rem;
+}
+
+.membership-detail-block {
+  background: var(--deep);
+  border-radius: 3px;
+  padding: clamp(1.5rem, 3vw, 2.25rem);
+  margin-bottom: 1.5px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.membership-detail-label {
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(98, 182, 173, 0.55);
+}
+
+.membership-detail-value {
+  font-family: var(--font-serif);
+  font-size: clamp(2.5rem, 5vw, 3.8rem);
+  font-weight: 600;
+  color: var(--sea);
+  line-height: 1.1;
+}
+
+.membership-detail-sub {
+  font-size: 0.78rem;
+  color: rgba(236, 242, 240, 0.35);
+  letter-spacing: 0.04em;
+}
+
+.membership-rates {
+  background: var(--mist);
+  border: 1px solid var(--mist-2);
+  border-radius: 3px;
+  padding: clamp(1.25rem, 2.5vw, 1.75rem);
+}
+
+.membership-rates-title {
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--tide);
+  margin-bottom: 1rem;
+}
+
+.membership-rates-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.membership-rates-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.88rem;
+  color: rgba(10, 46, 51, 0.65);
+  padding-bottom: 0.6rem;
+  border-bottom: 1px solid var(--mist-2);
+}
+.membership-rates-list li:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.rate-value {
+  font-family: var(--font-serif);
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--tide);
+}
+
+.membership-unlocks {
+  padding-block: var(--section-pad);
+  background: var(--deep);
+}
+
+.unlock-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.5px;
+  background: rgba(98, 182, 173, 0.08);
+  border: 1px solid rgba(98, 182, 173, 0.08);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.unlock-item {
+  background: rgba(10, 46, 51, 0.6);
+  padding: clamp(1.5rem, 3vw, 2.25rem);
+}
+
+.unlock-item h3 {
+  font-family: var(--font-serif);
+  font-size: 1.15rem;
+  font-weight: 400;
+  color: var(--sea);
+  margin-bottom: 0.75rem;
+}
+
+.unlock-item p {
+  font-size: 0.88rem;
+  color: rgba(236, 242, 240, 0.52);
+  line-height: 1.75;
+}
+
+.membership-jv {
+  padding-block: var(--section-pad);
+  background: var(--jungle);
+  position: relative;
+  overflow: hidden;
+}
+
+.membership-jv::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at 70% 40%, rgba(21, 126, 130, 0.2) 0%, transparent 65%);
+  pointer-events: none;
+}
+
+.membership-jv-inner {
+  position: relative;
+  z-index: 1;
+  max-width: 640px;
+}
+
+.membership-jv-headline {
+  font-family: var(--font-serif);
+  font-size: clamp(1.8rem, 3.5vw, 2.8rem);
+  font-weight: 300;
+  color: var(--mist);
+  line-height: 1.18;
+  margin-bottom: 1.25rem;
+  margin-top: 0.5rem;
+}
+
+.membership-jv-body {
+  font-size: 1rem;
+  color: rgba(236, 242, 240, 0.55);
+  line-height: 1.85;
+  margin-bottom: 1rem;
+  max-width: 560px;
+}
+
+.membership-jv-inner .btn-outline-light {
+  margin-top: 1.25rem;
+}
+
+.membership-cta-section {
+  padding-block: var(--section-pad);
+  background: var(--deep);
+  text-align: center;
+}
+
+.membership-cta-inner {
+  max-width: 520px;
+}
+
+.membership-cta-headline {
+  font-family: var(--font-serif);
+  font-size: clamp(2.2rem, 4.5vw, 3.6rem);
+  font-weight: 300;
+  color: var(--mist);
+  line-height: 1.15;
+  margin-bottom: 1.5rem;
+}
+
+.membership-cta-body {
+  font-size: 1rem;
+  color: rgba(236, 242, 240, 0.55);
+  line-height: 1.85;
+  margin-bottom: 0.75rem;
+}
+
+.membership-cta-note {
+  font-style: italic;
+  font-family: var(--font-serif);
+  font-size: 0.95rem;
+  color: rgba(236, 242, 240, 0.32);
+  margin-bottom: 2.5rem;
+}
+
+@media (max-width: 768px) {
+  .membership-what-grid { grid-template-columns: 1fr; }
+  .unlock-grid { grid-template-columns: 1fr 1fr; }
+}
+
+@media (max-width: 480px) {
+  .unlock-grid { grid-template-columns: 1fr; }
+}
+
 /* ─── FADE-IN ON SCROLL ────────────────────────────────────── */
 .fade-in {
   opacity: 0;

@@ -122,9 +122,10 @@
 - [x] Membership earn section ends the page by raising the question without answering it
 
 ### Step 6 — Build the Membership Offer
-- [ ] Define what membership unlocks that drop-in doesn't (priority, community, content, Jungle Village access)
-- [ ] Build a membership page or section — keep it invitation-only in tone, not open-enrollment
-- [ ] Connect explicitly to Jungle Village as the next horizon for the most committed clients
+- [x] Define what membership unlocks — priority access, community, newsletter, retreats, events, Jungle Village inside access, member rates on all packages
+- [x] Build membership.html — invitation-only tone, noindex meta, no nav links, quiet hero, rates table, unlock grid, Jungle Village section
+- [x] Connect to Jungle Village — dedicated section linking to mydreams-eight.vercel.app
+- [x] Wire transformation.html — membership earn section links to /membership, ladder row links to /membership
 
 ### Step 7 — Connect to Jungle Village
 - [ ] Add a "Where this leads" section to the Membership page pointing to Jungle Village
