@@ -1093,6 +1093,205 @@ ul { list-style: none; }
   .contact-actions .btn { text-align: center; }
 }
 
+/* ─── START PAGE ───────────────────────────────────────────── */
+.start-hero {
+  background: var(--deep);
+  padding-block: var(--section-pad);
+  padding-top: calc(var(--section-pad) + 5rem);
+  position: relative;
+  overflow: hidden;
+}
+
+.start-hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at 70% 50%, rgba(21, 126, 130, 0.12) 0%, transparent 65%);
+  pointer-events: none;
+}
+
+.start-hero-inner {
+  position: relative;
+  z-index: 1;
+  max-width: 680px;
+}
+
+.start-eyebrow {
+  font-size: 0.73rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--sea);
+  margin-bottom: 1.5rem;
+}
+
+.start-headline {
+  font-family: var(--font-serif);
+  font-size: clamp(2.4rem, 5vw, 4rem);
+  font-weight: 300;
+  line-height: 1.15;
+  color: var(--mist);
+  margin-bottom: 1.25rem;
+}
+
+.start-sub {
+  font-family: var(--font-serif);
+  font-size: clamp(1rem, 2vw, 1.2rem);
+  font-style: italic;
+  font-weight: 300;
+  color: rgba(236, 242, 240, 0.6);
+  margin-bottom: 2.5rem;
+  max-width: 540px;
+  line-height: 1.7;
+}
+
+.start-price-block {
+  display: flex;
+  align-items: baseline;
+  gap: 1.25rem;
+  margin-bottom: 2.25rem;
+  flex-wrap: wrap;
+}
+
+.start-price {
+  font-family: var(--font-serif);
+  font-size: clamp(2.2rem, 4vw, 3.2rem);
+  font-weight: 600;
+  color: var(--sea);
+}
+
+.start-price-detail {
+  font-size: 0.78rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(236, 242, 240, 0.35);
+}
+
+.what-you-get {
+  padding-block: var(--section-pad);
+  background: var(--white);
+}
+
+.get-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.5px;
+  background: var(--mist-2);
+  border: 1.5px solid var(--mist-2);
+  border-radius: 3px;
+  overflow: hidden;
+  margin-bottom: 1.5px;
+}
+
+.get-item {
+  background: var(--mist);
+  padding: clamp(1.75rem, 3vw, 2.75rem);
+}
+
+.get-number {
+  display: block;
+  font-family: var(--font-serif);
+  font-size: 0.82rem;
+  color: var(--sea);
+  letter-spacing: 0.12em;
+  margin-bottom: 1.25rem;
+}
+
+.get-item h3 {
+  font-family: var(--font-serif);
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: var(--deep);
+  margin-bottom: 0.75rem;
+}
+
+.get-item p {
+  font-size: 0.92rem;
+  color: rgba(10, 46, 51, 0.65);
+  line-height: 1.75;
+}
+
+.what-next {
+  padding-block: var(--section-pad);
+  background: var(--mist);
+}
+
+.start-book {
+  padding-block: var(--section-pad);
+  background: var(--jungle);
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.start-book::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at 50% 60%, rgba(21, 126, 130, 0.15) 0%, transparent 65%);
+  pointer-events: none;
+}
+
+.start-book-inner {
+  position: relative;
+  z-index: 1;
+  max-width: 560px;
+}
+
+.start-book-headline {
+  font-family: var(--font-serif);
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 300;
+  color: var(--mist);
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+}
+
+.start-book-sub {
+  font-size: 1rem;
+  color: rgba(236, 242, 240, 0.55);
+  margin-bottom: 2.5rem;
+  line-height: 1.8;
+}
+
+.start-book-email {
+  margin-top: 1.5rem;
+  font-size: 0.85rem;
+  color: rgba(236, 242, 240, 0.3);
+}
+.start-book-email a {
+  color: var(--sea);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.start-book-email a:hover { color: var(--mist); }
+
+.start-footer-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.start-footer-nav a {
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(98, 182, 173, 0.45);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.start-footer-nav a:hover { color: var(--sea); }
+
+.start-footer-nav span {
+  color: rgba(98, 182, 173, 0.2);
+}
+
+@media (max-width: 768px) {
+  .get-grid { grid-template-columns: 1fr; }
+}
+
 /* ─── FADE-IN ON SCROLL ────────────────────────────────────── */
 .fade-in {
   opacity: 0;

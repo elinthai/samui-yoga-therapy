@@ -75,9 +75,10 @@
 - [ ] Add audiobook / audio download listings with sample or preview (add cards as products go live)
 
 ## 11. Booking System
-- [ ] Research booking options (Calendly, Acuity, SimplyBook, or manual WhatsApp for now)
-- [ ] Decide on booking flow — embedded widget vs. redirect vs. WhatsApp link
-- [ ] Implement chosen booking system and replace or supplement "send a message" CTA
+- [x] Decide on booking platform — cal.com selected
+- [ ] Set up cal.com — create service types matching the product ladder (Scan & Start, Practice Package, Transformation)
+- [ ] Embed cal.com widget in start.html #book section (placeholder already in HTML)
+- [ ] Embed or link cal.com from SYT index.html contact section
 - [ ] Test booking flow end-to-end on mobile and desktop
 
 ## 12. Trust & Local SEO
@@ -91,21 +92,23 @@
 *Build order: define the products first, then build the convergence point, then wire the entry funnels toward it, then build the deeper tiers upward toward Jungle Village.*
 
 ### Step 1 — Define the product ladder (no build, decisions only)
-- [ ] Name and price the Scan & Start Package — the shared first purchase from both BSS and SYT funnels (suggested: scan + 2–3 sessions, one fixed price)
-- [ ] Define the Practice Package — what it includes, how long, what it costs (likely formalises the 10-session pass with a scan check-in)
-- [ ] Define the Transformation tier — duration, deliverables, price point (multi-month, outcome-led, probably includes re-scan)
-- [ ] Define the Membership Offer — what recurring looks like (monthly sessions, priority booking, community access?)
-- [ ] Clarify what Jungle Village offers the client at the top of the funnel — retreat participation, residency, investment, or all three
+- [x] Name and price the Scan & Start Package — 1 scan + consultation + 1 session · ฿5,000 · entry point for both BSS and SYT funnels
+- [x] Define the Practice Package — 10 sessions · ฿12,000 standard / ฿10,000 member
+- [x] Define the Transformation tier — 20 sessions · ฿22,000 standard / ฿18,000 member · add-on scans available separately (min. 2 weeks between scans)
+- [x] Define the Membership Offer — 1 scan + 1 session/month + member discounts + community access (retreats, events, run club, hiking, newsletter, Jungle Village inside access) · ฿2,500/month · not publicly advertised — offered by Eli in the room
+- [x] Additional services offered as add-ons at client request — extra scans, modalities, outcall — keeps entry packages simple and upsell in the relationship
+- [x] Jungle Village connection — members get inside access to community projects, retreat spots, and Stage Two participation; not listed on any public page
 
 ### Step 2 — Build the convergence page (Scan & Start Package)
-- [ ] Decide where it lives — new page on SYT, new page on BSS, or standalone (e.g. /start)
-- [ ] Write the page: headline, what's included, who it's for, price, single CTA (WhatsApp to book)
+- [x] Decide where it lives — start.html in SYT repo, live at samui-yoga-therapy.vercel.app/start
+- [x] Write the page: headline, what's included, product ladder, single CTA (WhatsApp to book)
+- [ ] Add cal.com booking widget to #book section once services are linked (placeholder comment in HTML)
 - [ ] Make it reachable from both BSS and SYT with consistent link text (e.g. "Start with a scan →")
 
 ### Step 3 — Wire both entry funnels toward it
-- [ ] Add Scan & Start Package CTA to SYT — after pricing section or as a featured pricing row
-- [ ] Add Scan & Start Package CTA to BSS — as a natural next step after the scan packages
-- [ ] Align language across both sites so the handoff feels seamless, not like a redirect
+- [x] Add Scan & Start Package CTA to SYT — featured pricing row at top of pricing table, links to /start
+- [x] Add Scan & Start Package CTA to BSS — bridge section after packages, links to samui-yoga-therapy.vercel.app/start
+- [x] Align language across both sites — consistent "Start with a scan →" language and ฿5,000 price point
 
 ### Step 4 — Build the Practice Package tier
 - [ ] Create a page or section for the Practice Package — the committed, ongoing relationship
