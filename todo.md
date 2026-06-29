@@ -86,11 +86,11 @@
 - [ ] Test booking flow end-to-end on mobile and desktop
 
 ## 12. Trust & Local SEO
-- [ ] Add "What to expect on your first session" mini-section — reduce first-timer hesitation
-- [ ] Embed Google Map for Bophut studio location
-- [ ] Add local business schema markup (JSON-LD) — name, address, phone, geo, hours
+- [x] Add "What to expect on your first session" mini-section — reduce first-timer hesitation
+- [x] Embed Google Map for Bophut studio location — update iframe src with real Place ID once Google Business Profile is claimed
+- [x] Add local business schema markup (JSON-LD) — name, address, phone, geo, hours
 - [ ] Submit or claim Google Business Profile for "Samui Yoga Therapy"
-- [ ] Add FAQ schema for common questions (What is yoga therapy? Do I need experience? etc.)
+- [x] Add FAQ schema for common questions (What is yoga therapy? Do I need experience? etc.)
 
 ## 13. Connected Ecosystem — Three-Site Funnel
 *Build order: define the products first, then build the convergence point, then wire the entry funnels toward it, then build the deeper tiers upward toward Jungle Village.*

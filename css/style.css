@@ -1764,6 +1764,132 @@ ul { list-style: none; }
   .unlock-grid { grid-template-columns: 1fr; }
 }
 
+/* ─── FIRST SESSION ────────────────────────────────────────── */
+.first-session {
+  padding-block: var(--section-pad);
+  background: var(--white);
+}
+
+.first-session .section-eyebrow {
+  font-size: 0.73rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--sea);
+  margin-bottom: 0.75rem;
+}
+
+.first-session h2 {
+  font-family: var(--font-serif);
+  font-size: clamp(2rem, 3.5vw, 2.8rem);
+  font-weight: 300;
+  color: var(--deep);
+  margin-bottom: 0.75rem;
+}
+
+.first-steps {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: clamp(1.5rem, 3vw, 2.5rem);
+  margin: 3rem 0 2rem;
+}
+
+.step-n {
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  color: var(--tide);
+  margin-bottom: 1rem;
+}
+
+.first-step h3 {
+  font-family: var(--font-serif);
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: var(--deep);
+  margin-bottom: 0.6rem;
+}
+
+.first-step p {
+  font-size: 0.92rem;
+  color: rgba(10, 46, 51, 0.65);
+  line-height: 1.75;
+}
+
+.first-note {
+  font-size: 0.85rem;
+  font-style: italic;
+  color: var(--tide);
+  opacity: 0.75;
+  text-align: center;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--mist-2);
+}
+
+@media (max-width: 768px) {
+  .first-steps { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 480px) {
+  .first-steps { grid-template-columns: 1fr; }
+}
+
+/* ─── FAQ ───────────────────────────────────────────────────── */
+.faq-section {
+  padding-block: var(--section-pad);
+  background: var(--mist);
+}
+
+.faq-section h2 {
+  font-family: var(--font-serif);
+  font-size: clamp(2rem, 3.5vw, 2.8rem);
+  font-weight: 300;
+  color: var(--deep);
+  margin-bottom: 2.5rem;
+}
+
+.faq-list {
+  max-width: 720px;
+}
+
+.faq-item {
+  border-bottom: 1px solid var(--mist-2);
+  padding: 1.5rem 0;
+}
+.faq-item:first-child {
+  border-top: 1px solid var(--mist-2);
+}
+
+.faq-item dt {
+  font-family: var(--font-serif);
+  font-size: 1.05rem;
+  font-weight: 400;
+  color: var(--deep);
+  margin-bottom: 0.6rem;
+}
+
+.faq-item dd {
+  font-size: 0.93rem;
+  color: rgba(10, 46, 51, 0.68);
+  line-height: 1.8;
+  margin: 0;
+}
+
+/* ─── MAP EMBED ─────────────────────────────────────────────── */
+.map-embed {
+  margin-top: 3rem;
+  border-radius: 4px;
+  overflow: hidden;
+  border: 1px solid var(--mist-2);
+}
+
+.map-embed iframe {
+  width: 100%;
+  height: 300px;
+  border: 0;
+  display: block;
+  filter: saturate(0.7);
+}
+
 /* ─── FADE-IN ON SCROLL ────────────────────────────────────── */
 .fade-in {
   opacity: 0;
