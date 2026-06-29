@@ -142,9 +142,9 @@
 - [x] Confirm the visual thread — three deliberate aesthetics (ocean/jungle · black/lime · earthy gold) unified by consistent cross-links, shared journey language ("Start with a scan →"), and Eli's voice across all three
 
 ### Step 9 — Email funnel mirrors the journey
-- [ ] Map the Mailchimp welcome sequence to the product ladder: Still Water → Scan & Start → Practice Package → Transformation
-- [ ] Write at minimum: welcome email (deliver Still Water) + one follow-up (introduce Scan & Start Package)
-- [ ] Build separate BSS audience sequence once BSS Mailchimp list is live
+- [x] Map the Mailchimp welcome sequence to the product ladder: Still Water → Scan & Start → Practice Package → Transformation
+- [x] Write at minimum: welcome email (deliver Still Water) + one follow-up (introduce Scan & Start Package)
+- [x] Build separate BSS audience sequence once BSS Mailchimp list is live
 
 ## 7. Testing & Launch
 - [ ] Add real photos (hero + about portrait)
@@ -153,3 +153,41 @@
 - [ ] Run Lighthouse audit (performance, accessibility, SEO)
 - [ ] Choose a hosting platform (GitHub Pages, Netlify, or custom domain)
 - [ ] Deploy and verify live site
+
+---
+
+## 14. Three-Site Audit — June 2026
+*Findings from full cross-site code review. Ordered by priority.*
+
+### Critical fixes (broken or invisible)
+- [x] **JV** Fix broken link in Proof section (line 81 index.html) — split into two separate links: samui-yoga-therapy.vercel.app and body-sculpt-samui.vercel.app; inline styles moved to natural link styling
+- [x] **JV** Add Open Graph meta tags (og:title, og:description, og:image, og:url) — uses hero image (tropical-village-rooftops.jpg) with absolute URL; also added favicon.svg
+- [x] **JV** Add mobile navigation — hamburger button added to header, nav-drawer overlay with all 8 links, toggle wired in script.js; header-cta hidden at ≤860px
+- [x] **BSS** Fix OG image — changed to absolute URL pointing to existing bodyscanner.jpg; added og:url
+
+### Code cleanup (dead code, inline styles)
+- [x] **BSS** Delete js/form.js — deleted
+- [x] **BSS** Delete css/services.css — deleted
+- [x] **BSS** Remove HTML comment on index.html line 472 — removed
+- [x] **JV** Move inline styles from Proof section line 84 into a CSS class — removed entirely when link was split into two clean anchor tags
+
+### SEO & schema
+- [x] **BSS** Add JSON-LD LocalBusiness + FAQPage schema — LocalBusiness (address, geo, hours, priceRange) + FAQPage with 8 scan-specific Q&As
+- [x] **JV** Add JSON-LD schema — Organization type (founder, address, sameAs links to SYT + BSS) + FAQPage with 5 investor Q&As
+- [x] **JV** Add favicon — favicon.svg created (dark green + gold JV mark), linked in head
+- [ ] **SYT** Claim Google Business Profile and update Google Map iframe src with real Place ID — manual action needed
+
+### Asset gaps
+- [ ] **SYT** Source hero image — studio or practice shot, high quality
+- [ ] **SYT** Source about portrait — Eli
+- [ ] **BSS** Create or export og-image.jpg (1200×630px, brand-consistent)
+- [ ] **JV** Create og-image.jpg for social sharing
+
+### Content gaps
+- [ ] **SYT** Add 2 more testimonials (currently 1; page performs better with 3+)
+- [ ] **JV** Add at least 1 testimonial — no social proof anywhere on the page
+- [ ] **SYT** Update Ground & Sound, Ashtanga Primary Series, Studio Recordings — add real Gumroad URLs and prices (currently href="#" + "Coming soon")
+- [ ] **SYT** Test cal.com booking flow end-to-end on mobile and desktop
+
+### Analytics (all three sites)
+- [ ] Set up basic analytics (Vercel Analytics is free and zero-config — enable in Vercel dashboard for each project)
