@@ -111,9 +111,9 @@
 - [x] Align language across both sites — consistent "Start with a scan →" language and ฿5,000 price point
 
 ### Step 4 — Build the Practice Package tier
-- [ ] Create a page or section for the Practice Package — the committed, ongoing relationship
-- [ ] Link from the Scan & Start page as the natural next step ("What comes after")
-- [ ] Update SYT pricing section to reflect the package and its position in the journey
+- [x] Create practice.html — 10 sessions, your pace, member rate callout, modalities, full ladder
+- [x] Link from start.html — Practice Package row links to /practice
+- [x] Update SYT index.html — Practice Pass renamed Practice Package, links to /practice
 
 ### Step 5 — Build the Transformation tier
 - [ ] Write the Transformation offer — outcome-led, specific timeframe, includes before/after scan
