@@ -1439,6 +1439,58 @@ ul { list-style: none; }
   .modality-grid { grid-template-columns: 1fr; }
 }
 
+/* ─── TRANSFORMATION PAGE ──────────────────────────────────── */
+.scan-cadence {
+  padding-block: var(--section-pad);
+  background: var(--deep);
+}
+
+.scan-cadence-note {
+  text-align: center;
+  font-size: 0.78rem;
+  color: rgba(236, 242, 240, 0.3);
+  letter-spacing: 0.03em;
+  margin-top: 2rem;
+  line-height: 1.7;
+}
+
+.membership-earn {
+  padding-block: var(--section-pad);
+  background: var(--mist);
+  text-align: center;
+}
+
+.membership-earn-inner {
+  max-width: 620px;
+  margin-inline: auto;
+}
+
+.membership-earn-headline {
+  font-family: var(--font-serif);
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 300;
+  color: var(--deep);
+  margin-bottom: 1.75rem;
+  line-height: 1.18;
+}
+
+.membership-earn-body {
+  font-size: 1rem;
+  color: rgba(10, 46, 51, 0.7);
+  line-height: 1.85;
+  margin-bottom: 1.1rem;
+}
+
+.membership-earn-body em {
+  font-family: var(--font-serif);
+  font-style: italic;
+  color: var(--tide);
+}
+
+.membership-earn-inner .btn-secondary {
+  margin-top: 1.75rem;
+}
+
 /* ─── FADE-IN ON SCROLL ────────────────────────────────────── */
 .fade-in {
   opacity: 0;

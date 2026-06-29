@@ -116,9 +116,10 @@
 - [x] Update SYT index.html — Practice Pass renamed Practice Package, links to /practice
 
 ### Step 5 — Build the Transformation tier
-- [ ] Write the Transformation offer — outcome-led, specific timeframe, includes before/after scan
-- [ ] Add it to the product ladder on SYT and BSS
-- [ ] This is the page that earns the Membership conversation
+- [x] Build transformation.html — 20 sessions, scan cadence arc, what the data tracks, membership earn section
+- [x] Add Transformation to SYT index.html pricing table linking to /transformation
+- [x] Wire /practice and /start ladder rows to link to /transformation
+- [x] Membership earn section ends the page by raising the question without answering it
 
 ### Step 6 — Build the Membership Offer
 - [ ] Define what membership unlocks that drop-in doesn't (priority, community, content, Jungle Village access)
