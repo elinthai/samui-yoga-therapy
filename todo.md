@@ -137,9 +137,9 @@
 - [x] Ensure Jungle Village contact form/CTA is reachable from the top of the funnel — community section has direct "Start a conversation" button linking to #contact; "Studio client or community member" added as first contact form option
 
 ### Step 8 — Cross-site navigation and visual coherence
-- [ ] Audit all three sites for consistent brand language (shared terms, tone, naming conventions)
-- [ ] Add a shared footer strip or nav element across BSS and SYT linking to each other and to Jungle Village
-- [ ] Confirm the visual thread (colours, fonts, spacing) feels like one world across all three
+- [x] Audit all three sites for consistent brand language — naming consistent (Eli, Styku, Scan & Start, Koh Samui); fixed BSS footer which incorrectly linked to SYT Facebook page instead of samui-yoga-therapy.vercel.app
+- [x] Add a shared footer strip or nav element across BSS and SYT linking to each other and to Jungle Village — SYT index.html footer now has BSS + JV links; BSS footer has SYT + JV links; JV footer has SYT + BSS links (added Step 7)
+- [x] Confirm the visual thread — three deliberate aesthetics (ocean/jungle · black/lime · earthy gold) unified by consistent cross-links, shared journey language ("Start with a scan →"), and Eli's voice across all three
 
 ### Step 9 — Email funnel mirrors the journey
 - [ ] Map the Mailchimp welcome sequence to the product ladder: Still Water → Scan & Start → Practice Package → Transformation
