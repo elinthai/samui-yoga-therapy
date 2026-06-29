@@ -132,9 +132,9 @@
 - [x] Wire transformation.html — membership earn section links to /membership, ladder row links to /membership
 
 ### Step 7 — Connect to Jungle Village
-- [ ] Add a "Where this leads" section to the Membership page pointing to Jungle Village
-- [ ] Update Jungle Village (mydreams) to reflect the full client journey — BSS and SYT as the proven on-ramps
-- [ ] Ensure Jungle Village contact form/CTA is reachable from the top of the funnel (not just from the membership tier)
+- [x] Add a "Where this leads" section to the Membership page pointing to Jungle Village — already built in membership.html (JUNGLE VILLAGE CONNECTION section)
+- [x] Update Jungle Village (mydreams) to reflect the full client journey — new "Community" section added between Proof and Staircase, naming SYT + BSS as on-ramps, with client journey cards and dark callout CTA
+- [x] Ensure Jungle Village contact form/CTA is reachable from the top of the funnel — community section has direct "Start a conversation" button linking to #contact; "Studio client or community member" added as first contact form option
 
 ### Step 8 — Cross-site navigation and visual coherence
 - [ ] Audit all three sites for consistent brand language (shared terms, tone, naming conventions)
