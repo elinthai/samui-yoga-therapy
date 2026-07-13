@@ -1,0 +1,10 @@
+{
+  "name": "samui-yoga-therapy",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Samui Yoga Therapy static website",
+  "scripts": {
+    "start": "npx serve .",
+    "build:journal": "node scripts/build-journal.js"
+  }
+}

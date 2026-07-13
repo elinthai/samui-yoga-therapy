@@ -191,3 +191,11 @@
 
 ### Analytics (all three sites)
 - [ ] Set up basic analytics (Vercel Analytics is free and zero-config — enable in Vercel dashboard for each project)
+
+## 14. Journal / Articles Section
+**Status: SHIPPED** — new `/journal` content type, ported from the same pattern built for Body Sculpt Samui. Single source of truth in `articles-data.js` (root, `brand: "syt"`). `node scripts/build-journal.js` (or `npm run build:journal`) reads that file and generates `journal/index.html` (card grid, newest first) plus one static `journal/<slug>/index.html` per article — real per-page `<title>`/description/OG tags, YouTube pillar video embed, CTA block per `ctaType` (booking → `samui-wellness` Cal.com / scan → `styku-scan-consultation` / membership → WhatsApp), and cross-links to `start.html` / `practice.html` / `transformation.html` / `membership.html` via `relatedProductIds`. Styling in `css/journal.css` reuses the existing sage/gold/charcoal palette and Lora/Raleway fonts. One seed article shipped (`why-yoga-therapy-is-not-a-vinyasa-class`) with a placeholder video ID.
+
+- [x] `package.json` added at repo root (didn't previously exist) with `build:journal` script
+- [ ] No nav/footer link to `/journal` added on `index.html`/`start.html`/etc. yet — only reachable by direct URL. Add when ready to launch.
+- [ ] Re-run `npm run build:journal` any time `articles-data.js` changes — generated `journal/` files are build output, don't hand-edit them.
+- [ ] Real hero image needed for the seed article — currently points at `assets/images/hero-placeholder.jpg`, which doesn't exist yet (same gap noted above for the homepage hero); the `<img>` has an `onerror` fallback so it just hides until a real image is added.
