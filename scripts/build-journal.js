@@ -12,9 +12,6 @@ const BRAND = "syt";
 
 // Known internal pages an article can cross-promote via relatedProductIds.
 const PRODUCT_LINKS = {
-  start: { label: "Scan & Start — ฿5,000", href: "../../start.html" },
-  practice: { label: "Practice Package — 10 sessions", href: "../../practice.html" },
-  transformation: { label: "The Transformation — 20 sessions", href: "../../transformation.html" },
   membership: { label: "Studio Membership", href: "../../membership.html" }
 };
 
@@ -66,9 +63,9 @@ function ctaBlock(ctaType) {
     return `
     <div class="journal-cta">
       <p class="section-intro">Where it begins</p>
-      <h2>Book your Scan &amp; Start.</h2>
-      <p class="journal-cta-lead">A Styku 3D body scan, a consultation, and your first private session — built around what the data finds. ฿5,000.</p>
-      <button data-cal-link="eli-caleb-fdhnnx/styku-scan-consultation" data-cal-config='{"layout":"month_view"}' class="btn btn-primary">Book your scan &amp; consultation</button>
+      <h2>Start the 4-Week Intro Track.</h2>
+      <p class="journal-cta-lead">A Styku baseline scan, a consultation, and eight private sessions built around what the data finds. ฿10,000.</p>
+      <a href="https://cal.com/eli-caleb-fdhnnx/4-week-intro-track" class="btn btn-primary">Begin the track</a>
     </div>`;
   }
   // membership

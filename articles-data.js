@@ -10,7 +10,7 @@
 // - body: markdown string, rendered by the tiny parser in scripts/build-journal.js
 // - ctaType: "booking" | "scan" | "membership" — picks the CTA block at the end
 // - relatedProductIds: optional array of keys from PRODUCT_LINKS in
-//   scripts/build-journal.js (e.g. "practice", "membership", "start", "transformation")
+//   scripts/build-journal.js (e.g. "membership")
 
 const articles = [
   {
@@ -30,7 +30,6 @@ const articles = [
       "nervous system reset Samui"
     ],
     ctaType: "scan",
-    relatedProductIds: ["start", "practice"],
     body: `Most people book their first session expecting a class — a set sequence, a pace to keep up with, a room full of mats. Yoga therapy starts somewhere else entirely.
 
 ## It starts with your history, not a sequence
