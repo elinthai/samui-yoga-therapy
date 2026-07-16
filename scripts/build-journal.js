@@ -198,6 +198,7 @@ ${relatedProductsBlock(article.relatedProductIds)}
 ${FOOTER}
 
   <script src="../../js/main.js"></script>
+  <script defer src="/_vercel/insights/script.js"></script>
 </body>
 </html>
 `;
@@ -286,6 +287,7 @@ ${cards}
   </footer>
 
   <script src="../js/main.js"></script>
+  <script defer src="/_vercel/insights/script.js"></script>
 </body>
 </html>
 `;
