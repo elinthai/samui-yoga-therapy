@@ -19,7 +19,7 @@ const articles = [
     title: "Yoga Therapy Isn't a Vinyasa Class — Here's the Actual Difference",
     pillarVideoId: "dQw4w9WgXcQ",
     publishDate: "2026-07-01",
-    heroImage: "assets/images/hero-placeholder.jpg",
+    heroImage: "assets/images/journal-not-vinyasa-hero.jpg",
     excerpt:
       "Yoga therapy in Bophut works from injury history and nervous system state, not a fixed sequence. Here's what that actually looks like in a private session on Koh Samui.",
     seoKeywords: [
